@@ -40,7 +40,6 @@ func TestServeMux(t *testing.T) {
 		Addr:    "localhost:8080",
 		Handler: mux,
 	}
-
 	server.ListenAndServe()
 }
 
